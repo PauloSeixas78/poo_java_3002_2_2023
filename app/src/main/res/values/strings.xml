@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Pupfeeder</string>
+
+    <string name="activity_tela_pupfeeder_racoes">Rações</string>
+    <string name="activity_tela_pupfeeder_animais">Animais</string>
+    <string name="activity_tela_pupfeeder_alimentador">Alimentador</string>
+    <string name="activity_tela_pupfeeder_agendamento">Agendamento</string>
 </resources>

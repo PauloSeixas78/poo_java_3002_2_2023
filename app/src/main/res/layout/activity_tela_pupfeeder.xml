@@ -4,9 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginStart="30dp"
-    android:layout_marginTop="30dp"
-    android:layout_marginEnd="50dp"
+    android:layout_margin="30dp"
     android:orientation="vertical"
     tools:context=".TelaPupfeeder">
 
@@ -14,23 +12,35 @@
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_margin="30dp"
+        android:layout_weight="1"
+        android:drawableLeft="@mipmap/ic_racao_foreground"
+        android:text="@string/activity_tela_pupfeeder_racoes" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_margin="30dp"
+        android:layout_weight="1"
+        android:drawableLeft="@mipmap/ic_animais_foreground"
+        android:text="@string/activity_tela_pupfeeder_animais" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_margin="30dp"
+        android:layout_weight="1"
+        android:drawableLeft="@mipmap/ic_alimentadores_foreground"
+        android:text="@string/activity_tela_pupfeeder_alimentador" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_margin="30dp"
+        android:layout_weight="1"
+        android:drawableLeft="@mipmap/ic_agendamento_foreground"
+        android:text="@string/activity_tela_pupfeeder_agendamento" />
 </LinearLayout>
