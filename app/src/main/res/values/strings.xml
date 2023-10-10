@@ -5,4 +5,19 @@
     <string name="activity_tela_pupfeeder_animais">Animais</string>
     <string name="activity_tela_pupfeeder_alimentador">Alimentador</string>
     <string name="activity_tela_pupfeeder_agendamento">Agendamento</string>
+
+    <string name="activity_tela_listagem_animal_novo">Cadastrar animal</string>
+
+    <string name="activity_tela_cadastro_animais_nome">Nome</string>
+    <string name="activity_tela_cadastro_animais_racao">Raça</string>
+    <string-array name="activity_tela_cadastro_animais_raça_lista">
+        <item>Caramelo</item>
+        <item>Salsicha</item>
+        <item>Pitbull</item>
+        <item>Husk</item>
+        <item>Rotveiller</item>
+    </string-array>
+    <string name="activity_tela_cadastro_animais_peso">Peso</string>
+    <string name="activity_tela_cadastro_animais_salvar">Salvar</string>
+
 </resources>

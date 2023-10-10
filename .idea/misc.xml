@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/61366935268/StudioProjects/poo_java_3002_2_2023/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/61366935268/StudioProjects/poo_java_3002_2_2023/app/src/main/res/layout/activity_tela_cadastro_animais.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/61366935268/StudioProjects/poo_java_3002_2_2023/app/src/main/res/layout/activity_tela_listagem_animais.xml" value="0.21145833333333333" />
         <entry key="..\:/Users/61366935268/StudioProjects/poo_java_3002_2_2023/app/src/main/res/layout/activity_tela_pupfeeder.xml" value="0.27291666666666664" />
       </map>
     </option>

@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    android:orientation="vertical"
     tools:context=".TelaListagemAnimais">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="451dp">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/buttonCadastrarAnimal"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:drawableLeft="@android:drawable/ic_input_add"
+        android:text="@string/activity_tela_listagem_animal_novo" />
+</LinearLayout>
