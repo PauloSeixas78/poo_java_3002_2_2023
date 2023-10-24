@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Pupfeeder">
         <activity
+            android:name=".TelaCadastroRacoes"
+            android:exported="false" />
+        <activity
             android:name=".TelaListaRacoes"
             android:exported="false" />
         <activity

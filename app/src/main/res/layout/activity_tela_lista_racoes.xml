@@ -7,8 +7,14 @@
     android:orientation="vertical"
     tools:context=".TelaListaRacoes">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycleListaRacoes"
+    <Button
+        android:id="@+id/buttonNovaRacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <ListView
+        android:id="@+id/ListViewListaRacoes"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </LinearLayout>

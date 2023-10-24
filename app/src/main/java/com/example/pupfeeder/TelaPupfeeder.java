@@ -21,12 +21,23 @@ public class TelaPupfeeder extends AppCompatActivity {
 
         animais = (Button) findViewById(R.id.buttonAnimais);
 
+        racoes = (Button) findViewById(R.id.buttonRacoes);
+
+        racoes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(TelaPupfeeder.this, TelaListaRacoes.class));
+            }
+        });
+
         animais.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(TelaPupfeeder.this,TelaListagemAnimais.class));
             }
         });
+
+
 
 
     }
