@@ -3,14 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/61366935268/StudioProjects/poo_java_3002_2_2023/app/src/main/res/layout/activity_tela_cadastro_racoes.xml" value="0.17481884057971014" />
-        <entry key="..\:/Users/61366935268/StudioProjects/poo_java_3002_2_2023/app/src/main/res/layout/activity_tela_lista_racoes.xml" value="0.17481884057971014" />
-        <entry key="..\:/Users/61366935268/StudioProjects/poo_java_3002_2_2023/app/src/main/res/layout/activity_tela_pupfeeder.xml" value="0.1" />
+        <entry key="..\:/Users/61366935268/StudioProjects/poo_java_3002_2_2023/app/src/main/res/layout/activity_tela_cadastro_animais.xml" value="0.20199275362318841" />
+        <entry key="..\:/Users/61366935268/StudioProjects/poo_java_3002_2_2023/app/src/main/res/layout/activity_tela_cadastro_racoes.xml" value="0.20199275362318841" />
+        <entry key="..\:/Users/61366935268/StudioProjects/poo_java_3002_2_2023/app/src/main/res/layout/activity_tela_listagem_animais.xml" value="0.20199275362318841" />
       </map>
     </option>
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

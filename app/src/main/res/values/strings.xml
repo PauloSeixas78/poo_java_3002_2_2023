@@ -6,6 +6,28 @@
     <string name="activity_tela_pupfeeder_alimentador">Alimentador</string>
     <string name="activity_tela_pupfeeder_agendamento">Agendamento</string>
 
+
+    <string name="activity_tela_cadastro_racoes_marca">Marca</string>
+    <string name="activity_tela_cadastro_racoes_quantidade">Quantidade</string>
+    <string name="activity_tela_cadastro_racoes_tipo">Tipo</string>
+    <string-array name="activity_tela_cadastro_racoes_tipo_lista">
+        <item>Standard</item>
+        <item>Premium</item>
+        <item>Super Premium</item>
+    </string-array>
+    <string name="activity_tela_cadastro_racoes_porte">Porte</string>
+    <string-array name="activity_tela_cadastro_racoes_porte_lista">
+        <item>Filhote</item>
+        <item>Adulto</item>
+        <item>Raças pequenas</item>
+        <item>Raças médias</item>
+        <item>Raças grandes</item>
+    </string-array>
+
+
+
+
+
     <string name="activity_tela_listagem_animal_novo">Cadastrar animal</string>
 
     <string name="activity_tela_cadastro_animais_nome">Nome</string>

@@ -16,7 +16,7 @@ public class Databasehelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db){
-        db.execSQL("CREATE TABLE racoes (_id INTEGER PRIMARY KEY,tipo TEXT, quantidade Text, pesopet Text)");
+        db.execSQL("CREATE TABLE racoes (_id INTEGER PRIMARY KEY,marca TEXT, quantidade INTEGER, tipo Text,porte Text)");
     }
 
     @Override

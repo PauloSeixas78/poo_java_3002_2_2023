@@ -12,12 +12,15 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 
+import java.util.ArrayList;
+
 public class TelaListaRacoes extends AppCompatActivity {
 
     Button novaracao;
     ListView listaracoes;
     Databasehelper helper;
-    String [] racoes;
+    ArrayList <Racao> racoes;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,11 +29,11 @@ public class TelaListaRacoes extends AppCompatActivity {
 
         listaracoes = (ListView) findViewById(R.id.ListViewListaRacoes);
         novaracao = (Button) findViewById(R.id.buttonNovaRacao);
+        racoes = new ArrayList<>();
+        helper = new Databasehelper(this);
 
-        //String [] racoes = new String[]{"Premium","Oqsobrou","Filhotes"};
-        racoes = listarRacoes();
 
-        ArrayAdapter <String> racoesadapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,racoes);
+        ArrayAdapter <String> racoesadapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,listarRacoes());
 
         listaracoes.setAdapter(racoesadapter);
 
@@ -43,23 +46,24 @@ public class TelaListaRacoes extends AppCompatActivity {
     }
 
     protected String[] listarRacoes(){
-        try{
+
             SQLiteDatabase db = helper.getReadableDatabase();
-            Cursor cursor = db.rawQuery("SELECT _id,tipo,quantidade,pesopet FROM racoes",null);
+            Cursor cursor = db.rawQuery("SELECT _id,marca,quantidade,tipo,porte FROM racoes",null);
             String [] resultado = new String[cursor.getCount()];
             cursor.moveToFirst();
             for(int i=0; i < cursor.getCount();i++)
             {
+                //racoes.add(new Racao(cursor.getInt(0),cursor.getString(1),cursor.getInt(2),cursor.getString(3),cursor.getString(4)));
                 resultado[i] = cursor.getString(1);
                 cursor.moveToNext();
             }
             cursor.close();
             return resultado;
-        }
-        finally {
-            String [] falha = new String[]{"falha","falha2","falha3"};
-            return falha;
-        }
+    }
 
+    @Override
+    protected void onDestroy(){
+        helper.close();
+        super.onDestroy();
     }
 }
